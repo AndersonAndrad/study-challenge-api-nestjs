@@ -10,8 +10,9 @@ import RepoModule from './repo.module';
 
 // resolvers
 import UserResolver from './resolvers/user.resolve';
+import MessageResolver from './resolvers/message.resolve';
 
-const gqlImports = [UserResolver];
+const gqlImports = [UserResolver, MessageResolver];
 
 @Module({
   imports: [
