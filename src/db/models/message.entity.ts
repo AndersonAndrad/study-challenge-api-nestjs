@@ -22,7 +22,7 @@ export default class Message {
 
   @Field()
   @Column({ name: 'user_id' })
-  userId: string;
+  userId: number;
 
   @Field()
   @Column()
